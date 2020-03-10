@@ -1,0 +1,100 @@
+*{
+  margin: 0;
+}
+.container{
+  display: flex;
+
+  
+}
+.header{
+  display: flex;
+ 
+  padding: 20px 100px;
+  background-color: rgb(238, 238, 238);
+  position: relative;
+}
+.input{
+  padding :10px 200px;
+  border-radius: 6px;
+  margin:0 70px
+}
+.cards
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 120px;
+}
+.card{
+  margin: 70px 20px;
+  padding: 0  0 70px 0;
+  position: relative;
+  -webkit-box-shadow: 1px 0px 18px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 0px 18px 0px rgba(0,0,0,0.75);
+box-shadow: 1px 0px 18px 0px rgba(0,0,0,0.75);
+}
+.addbutton1{
+  -webkit-box-shadow: 1px 0px 18px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 1px 0px 18px 0px rgba(0,0,0,0.75);
+  box-shadow: 1px 0px 18px 0px rgba(0,0,0,0.75);
+  margin: 70px 100px 70px 20px;
+  height: 380px;
+  width: 280px;
+  padding-top: 100px;
+}
+li{
+  list-style: none;
+}
+.title
+{
+  text-align: center;
+}
+.stars{
+  position: absolute;
+top: 0;
+left: 163px;
+background-color: red;
+
+}
+.rating-filter-text{
+  color :gold;
+}
+.buttdescription{
+  padding: 10px 30px;
+  margin: 0 30px 10px ;
+}
+.buttoption{
+  padding: 10px 20px;
+  margin : 0 0 0 20px;
+
+}
+.butt{
+  border-radius: 45px;
+  background-color: white;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+  .butt:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+.option{
+  display: flex;
+  flex-direction: row;
+}
+.search-etoile{
+
+  cursor: pointer;
+  
+ 
+}
+.myForm{
+  display: flex;
+  flex-direction: column;
+}
+.trailer{
+  margin :200px 500px;
+ 
+}
